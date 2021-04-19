@@ -1,0 +1,138 @@
+body {
+  font-family: "Myriad Pro";
+}
+
+header {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.header__btn {
+  font-size: 15px;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  border-right: 2px dotted #cccccc;
+  padding: 0px 2rem !important;
+  margin-top: 10px;
+}
+
+.header__btn-green {
+  color: #007641 !important;
+}
+
+.header__btn-btn {
+  background-color: #f91919;
+  color: #f9fcfe !important;
+  padding: 100px;
+}
+
+.Carousel {
+  margin-top: 30px;
+}
+
+.Carousel-inner img {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .carousel {
+    margin-top: 30px;
+  }
+  .carousel-inner img {
+    width: 100%;
+  }
+}
+
+.jumbotron {
+  margin-top: 100px;
+  background: none !important;
+}
+
+.jumbotron__title {
+  color: #007641;
+}
+
+.jumbotron__line {
+  width: 44px;
+  height: 4px;
+  background-color: #f91919;
+  margin: 0 auto;
+  margin-top: 38px;
+}
+
+.container__list {
+  border-top: 2px solid #007641 !important;
+  border-bottom: 2px solid #007641 !important;
+  padding-top: 10px;
+  border-radius: 60px;
+  margin-bottom: 50px;
+}
+
+.container__item h1 {
+  font-weight: 500;
+  color: #f91919;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.container2__image {
+  background: url(image/vien.png) repeat-y;
+  box-shadow: 5px 4px 66px -33px gray;
+  margin: 20px 0px;
+  border-radius: 20px;
+}
+
+.container2__image h3 {
+  margin-left: 90px;
+  font-weight: 700;
+}
+
+.container2__image span {
+  top: 10%;
+  left: 5%;
+}
+
+.container2__list {
+  margin-left: 70px;
+  font-size: 13px;
+  list-style-image: url(image/icon-check.png);
+}
+
+.container2__item {
+  margin-bottom: 14px;
+}
+
+.container2__background {
+  background-image: url(image/background.jpg);
+}
+
+.container3__image {
+  margin-top: 30px;
+}
+
+.container3__image img {
+  width: 100%;
+}
+
+.row {
+  margin: 0 auto !important;
+}
+
+.container4__item {
+  border-top: 1px solid #077641;
+  border-bottom: 1px solid #077641;
+  box-shadow: 5px 4px 66px -33px gray;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.container4__item h3 {
+  margin-left: 22%;
+  margin-top: 5%;
+  margin-bottom: 30px;
+}
+
+.container4-item {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
